@@ -397,8 +397,6 @@ function clickTile() {
 				drawPath();
 				selectedOneObject.setAttribute("class", "deleted");
 				selectedTwoObject.setAttribute("class", "deleted");
-				selectedOneObject.removeEventListener("click", clickTile());
-				selectedTwoObject.removeEventListener("click", clickTile());
 				selectedOneBool = false;
 				selectedTwoBool = false;
 				selectedOneObject = null;
